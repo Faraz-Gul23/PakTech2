@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PakTech Team | About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">PakTech</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#team">Team</a>
+                <a href="#values">Values</a>
+                <a href="#contact">Contact</a>
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <button class="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="container">
+            <h1 data-aos="fade-down">Meet Our Pakistani Team</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Innovating technology solutions with talent from across Pakistan</p>
+            <a href="#team" class="btn" data-aos="fade-up" data-aos-delay="400">View Team</a>
+        </div>
+    </header>
+
+    <!-- Team Members Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Expert Team</h2>
+            <p class="section-description" data-aos="fade-up" data-aos-delay="200">Talented professionals from Karachi to Khyber</p>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons" data-aos="fade-up" data-aos-delay="300">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="management">Management</button>
+            </div>
+            
+            <!-- Team Grid -->
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="team-card" data-category="development" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Ahmed Khan">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <h3>Ahmed Khan</h3>
+                    <p class="role">Senior Software Engineer</p>
+                    <p class="location">Karachi, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="ahmed">View Profile</button>
+                </div>
+                
+                <!-- Member 2 -->
+                <div class="team-card" data-category="design" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Fatima Ali">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </div>
+                    </div>
+                    <h3>Fatima Ali</h3>
+                    <p class="role">UI/UX Designer</p>
+                    <p class="location">Lahore, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="fatima">View Profile</button>
+                </div>
+                
+                <!-- Member 3 -->
+                <div class="team-card" data-category="management" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Usman Malik">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Usman Malik</h3>
+                    <p class="role">Project Manager</p>
+                    <p class="location">Islamabad, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="usman">View Profile</button>
+                </div>
+                
+                <!-- Member 4 -->
+                <div class="team-card" data-category="development" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Ayesha Raza">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                        </div>
+                    </div>
+                    <h3>Ayesha Raza</h3>
+                    <p class="role">Frontend Developer</p>
+                    <p class="location">Peshawar, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="ayesha">View Profile</button>
+                </div>
+                
+                <!-- Member 5 -->
+                <div class="team-card" data-category="design" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/men/55.jpg" alt="Bilal Ahmed">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <h3>Bilal Ahmed</h3>
+                    <p class="role">Graphic Designer</p>
+                    <p class="location">Faisalabad, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="bilal">View Profile</button>
+                </div>
+                
+                <!-- Member 6 -->
+                <div class="team-card" data-category="development" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-image">
+                        <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="Kamran Siddiqui">
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <h3>Kamran Siddiqui</h3>
+                    <p class="role">Backend Developer</p>
+                    <p class="location">Quetta, Pakistan</p>
+                    <button class="btn-outline view-profile" data-member="kamran">View Profile</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="values-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Our Pakistani Values</h2>
+            <p class="section-description" data-aos="fade-up" data-aos-delay="200">What makes our team uniquely Pakistani</p>
+            
+            <div class="values-grid">
+                <div class="value-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="value-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Mehmaan Nawazi</h3>
+                    <p>We treat every client with the legendary Pakistani hospitality, going above and beyond to serve you.</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="value-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Jamhoori Approach</h3>
+                    <p>Democratic decision making that values every team member's input, reflecting our cultural values.</p>
+                </div>
+                
+                <div class="value-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="value-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Tez Raftar</h3>
+                    <p>Fast-paced delivery without compromising quality, matching the energy of Pakistan's tech revolution.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 data-aos="fade-up">Connect With Our Team</h2>
+            <p class="section-description" data-aos="fade-up" data-aos-delay="200">We'd love to hear from you - reach out to our offices in Karachi, Lahore, or Islamabad</p>
+            <a href="#" class="btn" data-aos="fade-up" data-aos-delay="300">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Team Member Modal -->
+    <div class="modal" id="teamModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Content loaded via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
